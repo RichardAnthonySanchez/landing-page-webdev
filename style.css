@@ -19,6 +19,10 @@ h4 {
 }
 
 .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url(./img/james-harrison-vpOeXr5wmR4-unsplash\ \(1\).jpg);
     background-position: center;
     background-size: cover;
@@ -41,5 +45,18 @@ h4 {
 .btn {
     padding: 14px 18px;
     border-width: 2px;
+    border-color: white;
     border-radius: 0;
+    background-color: var(--dark);
+}
+
+.row-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review {
+    background-color: rgba(22, 22, 22, 0.8);
+    padding: 1rem;
 }
