@@ -73,3 +73,11 @@ p {
 .video {
     border-radius: 10px;
 }
+
+.card {
+    
+}
+
+.inverted {
+    filter: invert(1);
+}
