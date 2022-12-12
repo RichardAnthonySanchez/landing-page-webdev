@@ -18,6 +18,10 @@ h4 {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    font-size: 1.3rem;
+}
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -42,12 +46,17 @@ h4 {
     z-index: -1;
 }
 
-.btn {
+.btn-dark {
     padding: 14px 18px;
     border-width: 2px;
     border-color: white;
     border-radius: 0;
     background-color: var(--dark);
+}
+
+.btn {
+    padding: 14px 18px;
+    border-width: 2px;
 }
 
 .row-one {
@@ -59,4 +68,8 @@ h4 {
 .review {
     background-color: rgba(22, 22, 22, 0.8);
     padding: 1rem;
+}
+
+.video {
+    border-radius: 10px;
 }
